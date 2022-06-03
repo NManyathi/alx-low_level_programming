@@ -1,18 +1,23 @@
+/*
+ * File: 2-print_alphabet.c
+ * Auth: Brennan D Baraban
+ */
+
 #include <stdio.h>
-#include <ctype.h>
 
 /**
- * main - execute program that prints the alphabet in lowercase, followed by a new line
- * You can only use the putchar
- * Return: Always 0 (Success)
+ * main - Prints the alphabet in lowercase.
+ *
+ * Return: Always 0.
  */
 int main(void)
 {
-	char c;
+	char letter;
 
-	for (c = 'a'; c <= 'z'; c++)
-		putchar(c);
+	for (letter = 'a'; letter <= 'z'; letter++)
+		putchar(letter);
 
 	putchar('\n');
+
 	return (0);
 }
