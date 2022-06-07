@@ -7,12 +7,12 @@
  */
 int main(void)
 {
-	int n = 0;
-	char str_hbt[9] = "main";
-	while (n < 9)
+	int i = 0;
+	char c[10] = "main";
+	while (i < 9)
 	{
-		_putchar(str_hbt[n]);
-		n += 1;
+		_putchar(c[i]);
+		i++;
 	}
 	_putchar('\n');
 	return (0);
