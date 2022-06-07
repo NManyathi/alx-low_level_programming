@@ -1,19 +1,20 @@
-#include "holberton.h"
+#include "main.h"
+
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * execute main 
+ * main - entry point
+ * return: Always 0 (Success)
  */
+
 int main(void)
+{	
+	char c[10] = "main";
+	int i = 0;
+	while (i < 9)
+}
+_putchar(c[i]);
+i++;
 {
-	char *sh = "Holberton";
-
-	while (*sh)
-	{
-		_putchar(*sh);
-		sh++;
-	}
 	_putchar('\n');
-
 	return (0);
 }
