@@ -3,21 +3,24 @@
 /**
  * print_alphabet_x10 - fun
  * Print the alphabet, in lowercase, followed by new line
- * You can only use _putchr twice in your code
+ * You can only use _putchar twice in your code
  * Return: Always 0.
  */
+
 void print_alphabet_x10(void)
 {
-	int b = 0;
-	while (b < 10)
+	int l;
+	int n = 0;
+
+	while (n < 10)
 	{
-		char a = 'a';
-		while (a <= 'z')
+		l = 'a';
+		while (l <= 'z')
 		{
-			_putchar(a);
-			a++;
+			_putchar(l);
+			l += 1;
 		}
-		_putchar('\n');
-		b++;
+		_putchar(10);
+		n += 1;
 	}
 }
