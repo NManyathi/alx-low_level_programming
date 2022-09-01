@@ -627,17 +627,9 @@ julien@ubuntu:~/0x17. Doubly linked lists$ ./k
 -----------------
 -----------------
 -----------------
------------------
------------------
------------------
------------------
------------------
------------------
------------------
 julien@ubuntu:~/0x17. Doubly linked lists$ 
 Repo:
 
 GitHub repository: alx-low_level_programming
 Directory: 0x17-doubly_linked_lists
 File: 8-delete_dnodeint.c
-
